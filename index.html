@@ -8,12 +8,12 @@
     <meta name="og:type"             property="og:type" content="article" />
     <meta name="og:site_name"        property="og:site_name" content="Akio" />
     <meta name="og:title"            property="og:title" content="Akio's Profile" />
-    <meta name="og:image"            property="og:image" content="./pfp.jpeg" />
+    <meta name="og:image"            property="og:image" content="https://media.discordapp.net/attachments/931096682291138582/958049966427885589/pfp.jpeg" />
     <meta name="twitter:title"       property="twitter:title" content="Akio's Profile" />
     <meta name="twitter:description" property="twitter:description" content="Hi I'm Akio" />
-    <meta name="twitter:image"       property="twitter:image" content="./pfp.jpeg" />
+    <meta name="twitter:image"       property="twitter:image" content="https://media.discordapp.net/attachments/931096682291138582/958049966427885589/pfp.jpeg" />
     <meta name="twitter:card"        property="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image:alt"   property="twitter:image:alt" content="./pfp.jpeg" />
+    <meta name="twitter:image:alt"   property="twitter:image:alt" content="https://media.discordapp.net/attachments/931096682291138582/958049966427885589/pfp.jpeg" />
     <style type="text/css">
       body {
         margin: 0;
@@ -32,7 +32,6 @@
       }
       #main {
         width: 100%;
-        /*height: 100%;*/
       }
       .left-al {
         flex-basis: 60%;
@@ -54,8 +53,9 @@
         border-bottom-left-radius: 10px;
       }
       .left-al .image-name h2 {
-        flex-basis: 50%;
+        flex-basis: 55%;
         font-size: 1.5EM;
+        text-align: left;
       }
       .left-al .bio {
         flex-basis: 60%;
@@ -64,6 +64,7 @@
         border-radius: 10px;
         margin-bottom: 10px;
         margin-top: 10px;
+        font-size: 1.2EM;
       }
       .right-al {
         flex-basis: 30%;
@@ -82,6 +83,7 @@
       .right-al .social img {
         flex-basis: 30%;
         width: 40%;
+        max-width: 50px;
         height: auto;
         border-radius: 10px;
         margin-right: 5px;
@@ -91,13 +93,18 @@
         font-size: 1EM;
         overflow: scroll;
       }
+      @media only screen and (min-width: 600px) {
+        .right-al .social p {
+          font-size: 1.5EM;
+        }
+      }
     </style>
   </head>
   <body>
     <div id="main" class="flex-container flex-row" >
       <div class="left-al flex-container flex-col">
         <div class="image-name flex-container flex-row" >
-          <img src="./pfp.jpeg" />
+          <img src="https://media.discordapp.net/attachments/931096682291138582/958049966427885589/pfp.jpeg" />
           <h2>Akio</h2>
         </div>
         <div class="bio" >
@@ -111,19 +118,19 @@
       </div>
       <div class="right-al flex-container flex-col" >
         <a href="https://discord.com/users/584309117380853770" target="_blank"  class="social flex-container flex-row" >
-          <img src="./discord.jpeg" />
+          <img src="https://media.discordapp.net/attachments/931096682291138582/958049487077654588/discord.jpeg" />
           <p>akio#4209</p>
         </a>
         <a href="https://github.com/moyshik7" target="_blank"  class="social flex-container flex-row" >
-          <img src="./github.png" />
+          <img src="https://media.discordapp.net/attachments/931096682291138582/958049486851178546/github.png" />
           <p>moyshik7</p>
         </a>
         <a href="https://steamcommunity.com/id/_akio/" target="_blank"  class="social flex-container flex-row" >
-          <img src="./steam.png" />
+          <img src="https://media.discordapp.net/attachments/931096682291138582/958049486616277042/steam.png" />
           <p>_akio</p>
         </a>
         <a href="https://www.reddit.com/user/ppontheass/" target="_blank"  class="social flex-container flex-row" >
-          <img src="./reddit.png" />
+          <img src="https://media.discordapp.net/attachments/931096682291138582/958049486372999209/reddit.png" />
           <p>ppontheass</p>
         </a>
       </div>

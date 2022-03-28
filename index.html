@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akio's Profile</title>
+    <meta name="robots"              property="robots" content="all" />
+    <meta name="googlebot"           property="googlebot" content="all" />
+    <meta name="description"         property="description" content="Hi I'm Akio" />
+    <meta name="og:type"             property="og:type" content="article" />
+    <meta name="og:site_name"        property="og:site_name" content="Akio" />
+    <meta name="og:title"            property="og:title" content="Akio's Profile" />
+    <meta name="og:image"            property="og:image" content="./pfp.jpeg" />
+    <meta name="twitter:title"       property="twitter:title" content="Akio's Profile" />
+    <meta name="twitter:description" property="twitter:description" content="Hi I'm Akio" />
+    <meta name="twitter:image"       property="twitter:image" content="./pfp.jpeg" />
+    <meta name="twitter:card"        property="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt"   property="twitter:image:alt" content="./pfp.jpeg" />
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: no-wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .flex-row {
+        flex-direction: row;
+      }
+      #main {
+        width: 100%;
+        /*height: 100%;*/
+      }
+      .left-al {
+        flex-basis: 60%;
+      }
+      .left-al .image-name {
+        flex-basis: 10%;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .left-al .image-name img {
+        flex-basis: 40%;
+        width: 40%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .left-al .image-name h2 {
+        flex-basis: 50%;
+        font-size: 1.5EM;
+      }
+      .left-al .bio {
+        flex-basis: 60%;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .right-al {
+        flex-basis: 30%;
+      }
+      .right-al .social {
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid #57F287;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+      }
+      .right-al .social img {
+        flex-basis: 30%;
+        width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 5px;
+      }
+      .right-al .social p {
+        flex-basis: 60%;
+        font-size: 1EM;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main" class="flex-container flex-row" >
+      <div class="left-al flex-container flex-col">
+        <div class="image-name flex-container flex-row" >
+          <img src="./pfp.jpeg" />
+          <h2>Akio</h2>
+        </div>
+        <div class="bio" >
+          <p>
+            ╰┈➤ Let's talk about Anime <br>
+            ╰┈➤ REM best girl <br>
+            ╰┈➤ You're cute <br>
+            ╰┈➤ SASAGERO SASAGERO .....
+          </p>
+        </div>
+      </div>
+      <div class="right-al flex-container flex-col" >
+        <a href="https://discord.com/users/584309117380853770" target="_blank"  class="social flex-container flex-row" >
+          <img src="./discord.jpeg" />
+          <p>akio#4209</p>
+        </a>
+        <a href="https://github.com/moyshik7" target="_blank"  class="social flex-container flex-row" >
+          <img src="./github.png" />
+          <p>moyshik7</p>
+        </a>
+        <a href="https://steamcommunity.com/id/_akio/" target="_blank"  class="social flex-container flex-row" >
+          <img src="./steam.png" />
+          <p>_akio</p>
+        </a>
+        <a href="https://www.reddit.com/user/ppontheass/" target="_blank"  class="social flex-container flex-row" >
+          <img src="./reddit.png" />
+          <p>ppontheass</p>
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript" >
+    </script>
+  </body>
+</html>
